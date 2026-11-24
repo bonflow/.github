@@ -1,1 +1,20 @@
-
+name: Bug report
+description: Something is broken
+labels: ["type: bug"]
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options: [api, admin-ui, station-display, printing, app]
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Steps to reproduce, expected vs. actual behaviour
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
