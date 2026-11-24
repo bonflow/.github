@@ -1,1 +1,20 @@
-
+name: Feature request
+description: Something new
+labels: ["type: feature"]
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options: [api, admin-ui, station-display, printing, app]
+    validations: { required: true }
+  - type: textarea
+    id: problem
+    attributes:
+      label: Feature request
+      description: Steps to reproduce, expected vs. actual behaviour
+    validations: { required: true }
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
