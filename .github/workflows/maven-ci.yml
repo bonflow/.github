@@ -1,7 +1,7 @@
 on:
   workflow_call:
     inputs:
-      java-version: { type: string, default: "21" }
+      java-version: { type: string, default: "25" }
 jobs:
   build:
     runs-on: ubuntu-latest
