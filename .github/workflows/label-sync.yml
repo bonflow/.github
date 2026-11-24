@@ -20,4 +20,4 @@ jobs:
           token: ${{ secrets.LABEL_SYNC_TOKEN }}
           request-token: ${{ secrets.LABEL_SYNC_TOKEN }}
           repository: bonflow/${{ matrix.repo }}
-          delete-other-labels: false
+          delete-other-labels: true
