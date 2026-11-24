@@ -1,1 +1,36 @@
+# Shared labels for all bonflow repos (synced by label-sync.yml)
+# Format: EndBug/label-sync (name, color without '#', description)
 
+# --- type ---
+- name: "type: feature"
+  color: "1d76db"
+  description: New functionality
+
+- name: "type: bug"
+  color: "d73a4a"
+  description: Something is broken
+
+- name: "type: chore"
+  color: "cfd3d7"
+  description: Maintenance, dependencies, tooling, refactoring
+
+# --- component ---
+- name: "component: api"
+  color: "0e8a16"
+  description: REST API / OpenAPI contract (server)
+
+- name: "component: admin-ui"
+  color: "5319e7"
+  description: Vaadin admin interface
+
+- name: "component: station-display"
+  color: "fbca04"
+  description: Kitchen / bar station display
+
+- name: "component: printing"
+  color: "e99695"
+  description: Receipt and ticket printing
+
+- name: "component: app"
+  color: "006b75"
+  description: Flutter mobile app
